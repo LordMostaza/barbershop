@@ -1,0 +1,10 @@
+.footer {
+    background-color: $raisin-black;
+    height: 200px;
+    .footer__container {
+        @include flex-container;
+        .footer__logo {
+            width: 150px;
+        }
+    }
+}

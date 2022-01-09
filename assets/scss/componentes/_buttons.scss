@@ -1,0 +1,38 @@
+.pagination {
+    .pagination__container {
+        .btn {
+            border: solid $light-gray thin;
+            background-color: white;
+            transition: 500ms ease;
+
+            &:hover {
+                background-color: $nickel;
+            }
+        }
+        // transform the button-group to a pill
+        .btn.btn--left {
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        // transform the button-group to a pill
+        .btn.btn--right {
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
+}
+
+.article {
+    .btn-sm {
+        border: solid $raisin-black thin;
+        border-radius: 20px;
+        padding: 10px 20px;
+        background-color: $nickel;
+        transition: 500ms ease;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $raisin-black;
+        }
+    }
+}

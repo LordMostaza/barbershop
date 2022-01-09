@@ -1,0 +1,7 @@
+.naav {
+    height: 150px;
+    background-color: $platinum;
+    .naav__container {
+        @include flex-container;
+    }
+}

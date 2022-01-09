@@ -1,0 +1,18 @@
+.article {
+    margin: 0 8vw;
+    .article__container {
+        .article__font {
+            font-weight: $weight-regular;
+            font-size: $large;
+        }
+        .article__paragraph {
+            line-height: 45px;
+            margin: 40px 0;
+            font-size: $medium;
+        }
+        .article__horizontal-rule {
+            color: $nickel;
+            height: 2px;
+        }
+    }
+}
